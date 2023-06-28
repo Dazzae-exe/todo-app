@@ -1,0 +1,46 @@
+.TodoForm {
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 1rem;
+    gap: 16px 0;
+}
+
+textarea {
+    width: 90%;
+    height: auto;
+    border: 0;
+    outline: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.TodoForm-buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 16px;
+}
+
+.TodoForm-button--cancel {
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.TodoForm-button--cancel:hover {
+    background: #ff0000;
+    transition: all 0.3s ease-in-out ;
+}
+
+.TodoForm-button--add {
+    background-color: rgba(53, 192, 53, 0.539);
+    border: 0px;
+}
